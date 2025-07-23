@@ -1,0 +1,33 @@
+{
+  "name": "daimawebapp-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.10.0",
+    "africastalking": "^0.7.3",
+    "axios": "^1.10.0",
+    "body-parser": "^2.2.0",
+    "bottleneck": "^2.19.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.1",
+    "firebase": "^11.9.1",
+    "firebase-admin": "^13.4.0",
+    "fs": "^0.0.1-security",
+    "helmet": "^7.2.0",
+    "react-hot-toast": "^2.5.2",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0",
+    "winston-firebase": "^0.2.3"
+  }
+}
